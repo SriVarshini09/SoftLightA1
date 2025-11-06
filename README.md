@@ -2,51 +2,6 @@
 
 A comprehensive system that converts Figma design files into HTML and CSS using the Figma REST API. The system aims to produce pixel-perfect representations of Figma designs, handling layout, typography, colors, borders, gradients, effects, and more.
 
-## Features
-
-### Layout & Positioning
-- ✅ **Auto-layout** (Flexbox) support with horizontal/vertical layout modes
-- ✅ **Absolute positioning** for non-auto-layout frames
-- ✅ **Size constraints** (fixed, fill, hug content)
-- ✅ **Padding and spacing** (item spacing, gap)
-- ✅ **Alignment** (primary and counter axis alignment)
-- ✅ **Overflow** handling (clipsContent)
-
-### Visual Styling
-- ✅ **Solid colors** with opacity
-- ✅ **Linear gradients** with angle calculation
-- ✅ **Radial gradients**
-- ✅ **Conic/Angular gradients**
-- ✅ **Multiple fills** support
-- ✅ **Border radius** (uniform and individual corners)
-- ✅ **Borders/Strokes** with different alignments (inside, outside, center)
-- ✅ **Individual stroke weights**
-- ✅ **Gradient borders** using border-image
-
-### Typography
-- ✅ **Font family**, size, and weight
-- ✅ **Line height** (px and percent)
-- ✅ **Letter spacing**
-- ✅ **Text alignment** (horizontal and vertical)
-- ✅ **Text decoration** (underline, strikethrough)
-- ✅ **Text transform** (uppercase, lowercase, capitalize)
-- ✅ **Line breaks** preserved
-
-### Effects
-- ✅ **Drop shadows**
-- ✅ **Inner shadows**
-- ✅ **Layer blur**
-- ✅ **Background blur** (backdrop-filter)
-- ✅ **Opacity**
-- ✅ **Blend modes** (multiply, screen, overlay, etc.)
-
-### Node Types
-- ✅ **Frames** (with and without auto-layout)
-- ✅ **Groups**
-- ✅ **Components** and instances
-- ✅ **Text** nodes
-- ✅ **Shapes** (rectangles, ellipses, vectors, etc.)
-
 ## Installation
 
 ### Prerequisites
@@ -260,25 +215,10 @@ The system has been tested with various Figma designs including:
 - Nested components
 - Different border styles
 
-## Contributing
 
-To extend or improve this system:
-
-1. **Add new style converters** in `style_converter.py`
-2. **Enhance layout handling** in `layout_converter.py`
-3. **Improve node type support** in `html_generator.py`
-4. **Add new API endpoints** in `figma_client.py`
 
 ## Resources
 
 - [Figma REST API Documentation](https://www.figma.com/developers/api)
 - [Figma File Format](https://www.figma.com/developers/api#files)
 - [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-## License
-
-This project is provided as-is for educational and evaluation purposes.
-
-## Author
-
-Created for the Softlight Engineering Take-Home Assignment.
