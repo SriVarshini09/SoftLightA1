@@ -17,13 +17,13 @@ A comprehensive system that converts Figma design files into HTML and CSS using 
    pip install -r requirements.txt
    ```
 
-3. **Get your Figma API token:**
+3. * * Get your Figma API token: * *  
    - Go to [Figma](https://www.figma.com/)
    - Click on your profile icon → Settings
    - Scroll to "Personal Access Tokens"
    - Click "Create new token" and copy it
 
-4. **Set up your API token** (choose one method):
+4. * * Set up your API token * * (choose one method):
    
    **Option A: Environment variable (recommended)**
    ```bash
@@ -41,6 +41,11 @@ A comprehensive system that converts Figma design files into HTML and CSS using 
 ### Basic Usage
 
 ```bash
+
+
+
+
+
 python figam_to_html.py <figma_file_key_or_url>
 ```
 
